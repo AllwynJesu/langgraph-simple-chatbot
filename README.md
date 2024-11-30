@@ -5,6 +5,8 @@
 
 This project demonstrates how to create a context-aware simple chatbot using [LangGraph](https://www.langchain.com/langgraph). Unlike many examples found on YouTube, Udemy, and Medium, which often repeat the same code pattern (an infinite while loop for collecting user input and directly invoking `graph.invoke` or `graph.stream`), this implementation is a true chatbot. It ensures context-aware responses by maintaining the entire message history throughout the conversation.
 
+The main goal is to demonstrate how to build a basic chatbot that retains context using a structured graph-based approach. While there are many ways to implement chatbots, such as integrating **human-in-the-loop workflows** or **multi-turn conversation branching**, this project focuses on showcasing the fundamentals of a simple chatbot design.
+
 ---
 
 ## Features
